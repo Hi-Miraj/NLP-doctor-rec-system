@@ -13,7 +13,7 @@ def get_medical_advice(symptoms):
     """
 
     url = "https://api.gemini.com/chat"
-    headers = {"Authorization": "AIzaSyAR2AFJcW8b8VSodqz1vv5khbPSHEQWGBg"}  # Replace with your actual API key
+    headers = {"Authorization": "KEY"}  # Replace with your actual API key
     data = {
         "prompt": f"I am experiencing {symptoms}. What type of doctor should I see?",
         "model_name": "gemini-1.5-flash"
